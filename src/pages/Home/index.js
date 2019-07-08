@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import HeaderIntro from '../../components/HeaderIntro';
 import SectionPortfolio from '../../components/SectionPortfolio';
+import SectionPerfil from '../../components/SectionPerfil';
+import SectionContato from '../../components/SectionContato';
+import Footer from '../../components/Footer';
 
 class Home extends Component {
   constructor(props) {
@@ -12,6 +15,9 @@ class Home extends Component {
       <>
         <HeaderIntro/>
         <SectionPortfolio/>
+        <SectionPerfil/>
+        <SectionContato/>
+        <Footer/>
       </>
      );
   }

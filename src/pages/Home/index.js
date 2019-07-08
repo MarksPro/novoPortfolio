@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import Routes from './routes';
 
-class App extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {  }
   }
   render() { 
     return ( 
-      <Routes/>
+      <h1>Home</h1>
      );
   }
 }
  
-export default App;
+export default Home;

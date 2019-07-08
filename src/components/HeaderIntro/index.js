@@ -4,13 +4,14 @@ import marcaDagua from '../../assets/images/marca.png'
 
 const HeaderIntro = () => {
   return ( 
-    <section>
-      <img src={marcaDagua}></img>
-      <span>Front-End</span>
-      <h2>Marcos</h2><span></span>
-      <span></span><h2>Roberto</h2>
-      <span>Profissional</span>
-      <Link>Portfólio</Link>
+    <section className="sectionIntro">
+      <img className="sectionIntro__marcaDagua" src={marcaDagua}></img>
+      <div className="sectionIntro__content__area">
+        <span className="sectionIntro__subtitle">Front-End</span>
+        <h2 className="sectionIntro__title" >Marcos <span className="sectionIntro__adorno__after"></span></h2>
+        <h2 className="sectionIntro__title"> <span className="sectionIntro__adorno"></span> Roberto</h2>
+      </div>
+      <Link className="btn">Portfólio</Link>
     </section>
    );
 }

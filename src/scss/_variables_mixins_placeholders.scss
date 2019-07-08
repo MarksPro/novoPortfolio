@@ -7,3 +7,12 @@ $color_primary: #191919;
   align-items: center;
   flex-wrap: wrap;
 }
+
+// Media Queryes
+@mixin devices($device){
+  @if($device == md){
+    @media (max-width: 876px){
+      @content;
+    }
+  }
+}

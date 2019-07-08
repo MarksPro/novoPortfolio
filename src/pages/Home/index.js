@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderIntro from '../../components/HeaderIntro';
+import SectionPortfolio from '../../components/SectionPortfolio';
 
 class Home extends Component {
   constructor(props) {
@@ -8,7 +9,10 @@ class Home extends Component {
   }
   render() { 
     return ( 
-      <HeaderIntro/>
+      <>
+        <HeaderIntro/>
+        <SectionPortfolio/>
+      </>
      );
   }
 }

@@ -36,8 +36,8 @@ class SectionPortfolio extends Component {
           <Link>Link2</Link>
         </div>
          <div>
-          <img src={phone} alt="Desktop"></img>
-          <img src={tablet} alt="Desktop"></img>
+          <img src={phone} alt="Celular"></img>
+          <img src={tablet} alt="Tablet"></img>
           <img src={desktop} alt="Desktop"></img>
         </div>
       </section>

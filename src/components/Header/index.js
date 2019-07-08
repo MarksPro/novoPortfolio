@@ -1,19 +1,15 @@
 import React from 'react';
 import {HashLink} from 'react-router-hash-link';
-import {Link} from 'react-router-dom';
+import NavLink from '../NavLink';
+
+import Logo from '../../assets/images/Logo.png'
 
 const Header = () => {
   return ( 
     <header>
-      <HashLink>Logo</HashLink>
+      <HashLink><img src={Logo}></img></HashLink>
       <nav>
-        <ul>
-          <HashLink>Home</HashLink>
-          <HashLink>Portfólio</HashLink>
-          <Link>Perfil</Link>
-          <Link>Blog</Link>
-          <HashLink>Home</HashLink>
-        </ul>
+        <NavLink/>
       </nav>
     </header>
    );

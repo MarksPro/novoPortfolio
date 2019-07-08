@@ -2,3 +2,12 @@
 @import 'variables_mixins_placeholders';
 @import 'typograph';
 @import 'generic';
+
+// Components
+@import '../components/Header/header';
+@import '../components/NavLink/navlink';
+@import '../components/HeaderIntro/headerintro';
+@import '../components/SectionPortfolio/sectionportfolio';
+@import '../components/SectionPerfil/sectionperfil';
+@import '../components/SectionContato/sectioncontato';
+@import '../components/Footer/footer';

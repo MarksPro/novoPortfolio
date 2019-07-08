@@ -6,11 +6,13 @@ import Logo from '../../assets/images/Logo.png'
 
 const Header = () => {
   return ( 
-    <header>
-      <HashLink><img src={Logo}></img></HashLink>
-      <nav>
-        <NavLink/>
-      </nav>
+    <header className="header__container">
+      <div className="header">
+        <HashLink><img src={Logo}></img></HashLink>
+        <nav>
+          <NavLink/>
+        </nav>
+      </div>
     </header>
    );
 }

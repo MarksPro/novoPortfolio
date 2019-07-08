@@ -1,0 +1,11 @@
+.navlink {
+  @extend %flex;
+  .navlink__item {
+    padding: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: $font-secondary;
+    font-size: $font_generic;
+    font-weight: bold;
+  }
+}

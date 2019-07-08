@@ -4,12 +4,12 @@ import {HashLink} from 'react-router-hash-link'
 
 const NavLink = () => {
   return ( 
-      <ul>
-        <HashLink>Home</HashLink>
-        <HashLink>Portfólio</HashLink>
-        <Link>Perfil</Link>
-        <Link>Blog</Link>
-        <HashLink>Home</HashLink>
+      <ul className="navlink">
+        <HashLink className="navlink__item">Home</HashLink>
+        <HashLink className="navlink__item">Portfólio</HashLink>
+        <Link className="navlink__item">Perfil</Link>
+        <Link className="navlink__item">Blog</Link>
+        <HashLink className="navlink__item">Home</HashLink>
       </ul>
    );
 }
